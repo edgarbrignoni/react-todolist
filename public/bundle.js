@@ -63,7 +63,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "316c428b705f45b5b889"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "9bb004eb48e3c465a349"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -38192,7 +38192,7 @@ var Todolist = exports.Todolist = function (_React$Component) {
         var _this = _possibleConstructorReturn(this, (Todolist.__proto__ || Object.getPrototypeOf(Todolist)).call(this));
 
         _this.state = {
-            todos: [{ done: false, title: 'Make the bed', id: Math.random() * 10 }, { done: false, title: 'Wash my hands', id: Math.random() * 10 }, { done: false, title: 'Eat', id: Math.random() * 10 }],
+            todos: [{ done: false, title: 'Make the bed', id: Math.random() * 10 }, { done: false, title: 'Wash my hands', id: Math.random() * 10 }, { done: false, title: 'Eat', id: Math.random() * 10 }, { done: false, title: 'Walk the dog', id: Math.random() * 10 }],
             taskInput: ''
         };
         return _this;

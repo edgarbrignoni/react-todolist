@@ -9,7 +9,7 @@ export class Todolist extends React.Component{
                 {done: false, title: 'Make the bed', id: (Math.random()*10)},
                 {done: false, title: 'Wash my hands', id: (Math.random()*10)},
                 {done: false, title: 'Eat', id: (Math.random()*10)},
-                // {done: false, title: 'Walk the dog', id: (Math.random()*10)}
+                {done: false, title: 'Walk the dog', id: (Math.random()*10)}
             ],
             taskInput: ''
         };
