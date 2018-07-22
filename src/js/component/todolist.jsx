@@ -1,7 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 
-export class Todolist extends React.Component{
+class Todolist extends React.Component{
     constructor() {
         super();
         this.state = {
@@ -76,3 +76,5 @@ export class Todolist extends React.Component{
         );
     }
 }
+
+export default Todolist;
