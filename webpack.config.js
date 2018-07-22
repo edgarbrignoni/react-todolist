@@ -9,7 +9,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public'),
-    publicPath: path.resolve(__dirname, '/react-todolist/public')
+    publicPath: path.resolve(__dirname, '/')
   },
   module: {
     rules: [
