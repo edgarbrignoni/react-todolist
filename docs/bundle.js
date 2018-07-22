@@ -63,7 +63,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ee902b3df5e93f1d831f"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "e2eda684210a5699ad3b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -38165,7 +38165,6 @@ module.exports = g;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.Todolist = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -38183,7 +38182,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 // import PropTypes from 'prop-types';
 
-var Todolist = exports.Todolist = function (_React$Component) {
+var Todolist = function (_React$Component) {
     _inherits(Todolist, _React$Component);
 
     function Todolist() {
@@ -38303,6 +38302,8 @@ var Todolist = exports.Todolist = function (_React$Component) {
     return Todolist;
 }(_react2.default.Component);
 
+exports.default = Todolist;
+
 /***/ }),
 
 /***/ "./src/js/index.js":
@@ -38329,6 +38330,8 @@ __webpack_require__(/*! ../styles/index.scss */ "./src/styles/index.scss");
 
 var _todolist = __webpack_require__(/*! ./component/todolist.jsx */ "./src/js/component/todolist.jsx");
 
+var _todolist2 = _interopRequireDefault(_todolist);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 //render your react application
@@ -38338,7 +38341,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _reactDom2.default.render(_react2.default.createElement(
     'div',
     null,
-    _react2.default.createElement(_todolist.Todolist, null)
+    _react2.default.createElement(_todolist2.default, null)
 ), document.querySelector('#app'));
 
 //import your own components
